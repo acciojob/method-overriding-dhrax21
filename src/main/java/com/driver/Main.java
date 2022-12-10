@@ -8,8 +8,10 @@ public class Main {
             return "Invoking method from class A";
         }
     }
-    @Override
+    
     public static class B extends A{
+        
+        @Override
         public String meth(){
             return "Method is overridden in Extendend class B";
         }
